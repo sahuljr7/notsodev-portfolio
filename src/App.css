@@ -1,0 +1,50 @@
+body {
+  background: #0f0e17;
+}
+
+.app {
+  position: relative;
+}
+
+.app__footer {
+  margin-bottom: 25px;
+}
+
+.app__footer > a {
+  color: #8892b0;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.app__footer > a:hover {
+  color: #ff8906;
+}
+
+.app__footer > a > span {
+  letter-spacing: 0.5px;
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+
+.app__githubStats {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+}
+
+.app__githubStat {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+.app__githubStats > .app__githubStat:nth-of-type(1) {
+  margin-right: 15px;
+}
+
+.app__githubStat > .MuiSvgIcon-root {
+  font-size: medium;
+  margin-right: 5px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "image": "https://user-images.githubusercontent.com/108209653/175992388-8e51bb23-5f03-4a03-847b-a05dc2ad5a4f.png",
+    "title": "The Anime Database",
+    "info": "Build an ANIME Search Database in React JS using Jikan Anime API",
+    "techList": ["React", "Jikan API"],
+    "github": "https://github.com/notsodevv/The-Anime-Database",
+    "live": "http://the-anime-database-notsodevv.vercel.app/"
+  },
+  {
+    "image": "https://user-images.githubusercontent.com/108209653/177035881-61df1e98-59b5-4a14-a4ae-b0fd502e9271.png",
+    "title": "Anime Landing Page",
+    "info": "A completely responsive anime landing page created with HTML5, CSS and JavaScript.",
+    "techList": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/notsodevv/Anime-Landing-Page",
+    "live": "http://watchanime-notsodevv.vercel.app/"
+  }
+]

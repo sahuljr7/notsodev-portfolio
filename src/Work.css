@@ -1,0 +1,69 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.work__projects {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.work__otherProjects > h1 {
+  text-align: center;
+  color: #ccd6f6;
+  margin-bottom: 15px;
+}
+
+.work__otherProjects > span {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.work__otherProjects > span > a {
+  text-decoration: none;
+  color: #ff8906;
+}
+
+.work__otherProjects > span > a:hover {
+  text-decoration: underline;
+}
+
+.work__otherProjectsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.work__otherProjectsButton {
+  display: flex;
+  justify-content: center;
+}
+
+.work__otherProjectsButton > button {
+  background: transparent;
+  color: #ff8906;
+  padding: 18px 24px;
+  border: 1px solid #ff8906;
+  border-radius: 5px;
+  cursor: pointer;
+  outline-width: 0;
+  text-align: center;
+}
+
+.work__otherProjectsButton > button:hover,
+.work__otherProjectsButton > button:focus {
+  background: #242323;
+}

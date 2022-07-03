@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header > a > img {
+  object-fit: contain;
+  width: 90px;
+}
+
+.header__links {
+  width: 420px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.header__link {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.header__link > span {
+  color: #ff8906;
+  margin-right: 5px;
+}
+
+.header__link:hover {
+  color: #ff8906;
+}
+
+.header > a > button {
+  background: transparent;
+  color: #ff8906;
+  padding: 10px 15px;
+  border: 1px solid #ff8906;
+  border-radius: 5px;
+  cursor: pointer;
+  outline-width: 0;
+}
+
+.header > a > button:hover {
+  background: #242323;
+}

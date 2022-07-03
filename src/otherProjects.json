@@ -1,0 +1,36 @@
+[
+  {
+    "title": "3-D Earth",
+    "info": "A 3-D Model of Earth created with Three.js and @react-three libraries",
+    "techStack": ["Three.js", "@react-three"],
+    "live": "http://3d-earth-notsodevv.vercel.app/",
+    "github": "https://github.com/notsodevv/3D-Earth"
+  },
+  {
+    "title": "Snapchat Clone",
+    "info": "A simple Snapchat Clone built with React,Redux and Firebase.",
+    "techStack": ["Redux", "React", "Firebase"],
+    "live": "https://snapchat-clone-yt-c12f4.web.app/",
+    "github": "https://github.com/sahuljr7/snapchat-clone"
+  },
+  {
+    "title": "Starbucks Clone",
+    "info": "Starbucks Website Clone built with React,Redux and Firebase.",
+    "techStack": ["Redux", "React", "Firebase"],
+    "live": "https://starbucks-clone-2de68.web.app/",
+    "github": "https://github.com/sahuljr7/starbucks-clone"
+  },
+  {
+    "title": "Gmail Clone",
+    "info": "A simple Gmail Clone built with React,Redux and Firebase.",
+    "techStack": ["Redux", "Firebase"],
+    "live": "https://clone-5e46b.web.app/",
+    "github": "https://github.com/sahuljr7/gmail-clone"
+  },
+  {
+    "title": "Google Clone",
+    "info": "Google Clone built with TailwindCSS and Next.JS",
+    "techStack": ["Next.JS", "TaiwindCSS"],
+    "live": "http://googleclone-sahulnotsodevv.vercel.app/"
+  }
+]

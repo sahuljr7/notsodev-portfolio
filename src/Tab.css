@@ -1,0 +1,51 @@
+.tab {
+}
+
+.tab > h3 {
+  color: #ccd6f6;
+  margin-bottom: 10px;
+  font-size: calc(10px + 0.9vw);
+}
+
+.tab > h3 > span {
+  color: #ff8906;
+}
+
+.tab > h3 > a {
+  color: #ff8906;
+  text-decoration: none;
+}
+
+.tab > h3 > a:hover {
+  text-decoration: underline;
+}
+
+.tab > span {
+  color: #8892b0;
+  font-size: smaller;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tab__infoContainer {
+  width: 100%;
+  margin-right: auto;
+}
+
+.tab__info {
+  display: flex;
+  margin-bottom: 20px;
+  color: #8892b0;
+  margin-left: -10px;
+}
+
+.tab__info > p {
+  max-width: 550px;
+  line-height: 1.5;
+  font-size: calc(9px + 0.8vw);
+}
+
+.tab__info > .MuiSvgIcon-root {
+  color: #ff8906;
+}

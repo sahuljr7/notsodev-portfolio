@@ -1,0 +1,13 @@
+[
+  {
+    "id": 0,
+    "place": "NotSoDev",
+    "role": "Developer",
+    "duration": "June 2022 - Present",
+    "info": [
+      "Creating simple yet beautiful websites with great user experience.",
+      "Working with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Firebase, Next JS, Three JS, Netlify and Git.",
+      "Working on Open Source projects on a daily basis."
+    ]
+  }
+]

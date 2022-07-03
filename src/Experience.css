@@ -1,0 +1,66 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.experience__tabsVertical {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 258px;
+  z-index: 10;
+  width: 3px;
+  background: #8892b0;
+}
+
+.experience__tabsVertical > div {
+  position: absolute;
+  border-radius: 5px;
+  top: 0px;
+  left: 0px;
+  height: 43px;
+  z-index: 10;
+  width: 3px;
+  background: #ff8906;
+}
+
+.experience__info {
+  display: flex;
+}
+
+.experience__place {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.experience__place > button {
+  padding: 13px;
+  padding-left: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #8892b0;
+  font-weight: 300;
+  text-align: left;
+  outline-width: 0;
+  transition: background-color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.experience__place > button:hover,
+.experience__place > button:focus {
+  background-color: #172a45;
+}
+
+.experience__place > .experience__placeActive {
+  color: #ff8906;
+}
